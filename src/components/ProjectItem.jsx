@@ -1,6 +1,9 @@
 import React from 'react';
 import TechStack from './Techstack';
 
+// Rest of the code...
+
+
 const ProjectItem = ({ img, title, link, code, techStack }) => {
   return (
     <div className='relative group'>
