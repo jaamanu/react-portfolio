@@ -5,7 +5,7 @@
 
 </div>
 
-# PORTFILIO APP
+# PORTF0LIO APP
 
 > React Portfolio web application
 
