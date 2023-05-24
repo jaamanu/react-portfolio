@@ -6,8 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-import TechStack from "./components/Techstack";
-// import ProjectItem from "./components/ProjectItem";
+import TechStack from "./components/TechStack";
+import ProjectItem from "./components/ProjectItem";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Contact />
       <Footer />
       <TechStack/>
-      {/* <ProjectItem/> */}
+      <ProjectItem/>
     </div>
   );
 }

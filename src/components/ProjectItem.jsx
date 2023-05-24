@@ -1,5 +1,5 @@
 import React from 'react';
-import TechStack from './Techstack';
+import TechStack from './TechStack';
 
 // Rest of the code...
 
