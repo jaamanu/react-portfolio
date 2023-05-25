@@ -18,11 +18,11 @@ const Main = () => {
           <h1 className="sm:text-5xl font-bold text-blue-500 ">
             I'm James Asibey Manu
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-white ">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-white pl-4 pr-4">
             I'm a
             <TypeAnimation
               sequence={[
-                "FullStack Software Developer", // Types 'One'
+                "Software Developer", // Types 'One'
                 2000, // Waits 1s
                 "Network Engineer", // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
