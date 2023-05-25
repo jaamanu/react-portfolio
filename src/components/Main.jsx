@@ -36,7 +36,7 @@ const Main = () => {
             />
           </h2>
           <div>
-            <p className=" shadow-slate-100 mt-4 rounded-md text-white ">
+            <p className=" shadow-slate-100 mt-4 rounded-md text-white pr-2 pl-2">
               With a background in developing efficient software applications in a global market. More than 1300+ hours of experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries!
             </p>
           </div>
