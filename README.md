@@ -18,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link])(https://jaamanu.netlify.app/)
 
 
 ## Getting Started
