@@ -6,20 +6,19 @@ const Main = () => {
   return (
     <div className="items-center flex-col" id="main">
       <div
-        className="w-full h-screen relative"
+        className="w-full h-screen relative bg-slate-700"
         style={{
-          backgroundImage: 'url("/public/images/bg11.jpeg")',
+          backgroundImage: 'url("../assets/Screenshot 2023-05-23 at 16.06.45.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-
         }}
       >
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center ">
-          <h1 className="sm:text-5xl font-bold text-gray-800">
+        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center  text-white ">
+          <h1 className="sm:text-5xl font-bold text-blue-500 ">
             I'm James Asibey Manu
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-white ">
             I'm a
             <TypeAnimation
               sequence={[
@@ -37,12 +36,12 @@ const Main = () => {
             />
           </h2>
           <div>
-            <p className="text-gray-800  shadow-slate-100 mt-4 rounded-md">
+            <p className=" shadow-slate-100 mt-4 rounded-md text-white ">
               With a background in developing efficient software applications in a global market. More than 1300+ hours of experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries!
             </p>
           </div>
 
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <div className="flex justify-between pt-6 max-w-[200px] w-full text-white ">
             <a
               href="https://github.com/jaamanu"
               target="_blank"
@@ -91,6 +90,15 @@ const Main = () => {
               </a>
             </div>
           </div>
+          <div
+            className="absolute top-0 right-0 w-10 h-10 rounded-full bg-white animate-snow"
+            style={{
+              animationDuration: "5s",
+              animationIterationCount: "infinite",
+              transform: "translateY(-100%) translateX(-100%) scale(0.5)",
+              opacity: 0,
+            }}
+          />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Skills = () => {
         <div className='w-full md:w-1/3 px-4 mb-4'>
           <div className='bg-white shadow-lg shadow-slate-700 rounded-lg p-4'>
             <h3 className='text-xl text-left text-[#001b5e]'>Frameworks and Tools</h3>
-            <ul className='flex flex-col bg-blue-950  text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
+            <ul className='flex flex-col bg-slate-800   text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
               <li>React.js</li>
               <li>Ruby on Rails</li>
               <li>PostgreSQL</li>
@@ -24,7 +24,7 @@ const Skills = () => {
         <div className='w-full md:w-1/3 px-4 mb-4'>
           <div className='bg-white shadow-lg shadow-slate-700 rounded-lg p-4'>
             <h3 className='text-xl text-left text-[#001b5e]'>Languages and Web Development</h3>
-            <ul className='flex flex-col bg-blue-950  text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
+            <ul className='flex flex-col bg-slate-800   text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
               <li>JavaScript</li>
               <li>Ruby</li>
               <li>HTML5</li>
@@ -35,8 +35,8 @@ const Skills = () => {
 
         <div className='w-full md:w-1/3 px-4 mb-4'>
           <div className='bg-white shadow-lg shadow-slate-700 rounded-lg p-4'>
-            <h3 className='text-xl text-left text-[#001b5e]'>Soft Skills</h3>
-            <ul className='flex flex-col bg-blue-950  text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
+            <h3 className='text-xl text-left text-[#525252]'>Soft Skills</h3>
+            <ul className='flex flex-col bg-slate-800   text-white px-2 py-1 rounded hover:bg-blue-400 transition-colors duration-300'>
               <li>Project Management</li>
               <li>Communication</li>
               <li>Attention to Detail</li>

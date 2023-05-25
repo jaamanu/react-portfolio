@@ -3,11 +3,11 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="py-4 text-4xl font-bold text-center text-slate-800 ">
         Contact Me
       </h1>
       <div className="flex flex-col items-center justify-center space-x-2">
-            <p className=" bg-blue-950  text-white px-2 py-1 rounded-lg ">
+            <p className=" bg-slate-800   text-white px-2 py-1 rounded-lg ">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </p>
           </div>
@@ -58,7 +58,7 @@ const Contact = () => {
             name="message"
           ></textarea>
         </div>
-        <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg">
+        <button className="bg-slate-800  text-gray-100 mt-4 w-full p-4 rounded-lg">
           Send Message
         </button>
       </form>

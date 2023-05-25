@@ -19,8 +19,8 @@ function App() {
       <Skills/>
       <Contact />
       <Footer />
-      <TechStack/>
-      <ProjectItem/>
+      {/* <TechStack/> */}
+      {/* <ProjectItem/> */}
     </div>
   );
 }
