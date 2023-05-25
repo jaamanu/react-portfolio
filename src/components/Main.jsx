@@ -22,7 +22,7 @@ const Main = () => {
             I'm a
             <TypeAnimation
               sequence={[
-                "Software Developer", // Types 'One'
+                "FullStack Developer", // Types 'One'
                 2000, // Waits 1s
                 "Network Engineer", // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
