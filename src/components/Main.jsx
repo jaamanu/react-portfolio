@@ -18,7 +18,7 @@ const Main = () => {
           <h1 className="sm:text-5xl font-bold text-blue-500 ">
             I'm James Asibey Manu
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-white pl-4 pr-4">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-white  pr-4">
             I'm a
             <TypeAnimation
               sequence={[
@@ -36,7 +36,7 @@ const Main = () => {
             />
           </h2>
           <div>
-            <p className=" shadow-slate-100 mt-4 rounded-md text-white pr-2 pl-2">
+            <p className=" shadow-slate-100 mt-4 rounded-md text-white pr-2">
               With a background in developing efficient software applications in a global market. More than 1300+ hours of experience, including mentoring 10+ junior developers to achieve concrete goals on a strict deadline. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries!
             </p>
           </div>
